@@ -1,0 +1,197 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <title>ICPC CU Scoreboard Archive</title>
+    <link rel="icon" href="2026b/favicon.ico" />
+    <style>
+      :root {
+        --ink: #212529;
+        --header-bg: #343a40;
+        --card-border: rgba(0, 0, 0, 0.125);
+        --divider: #dee2e6;
+        --rule: rgba(0, 0, 0, 0.1);
+        --link: #007bff;
+        --link-hover: #0056b3;
+      }
+
+      *,
+      *::before,
+      *::after {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        background: #fff;
+        color: var(--ink);
+        font-family:
+          -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+          "Helvetica Neue", Arial, sans-serif;
+        font-size: 1rem;
+        line-height: 1.5;
+      }
+
+      h1,
+      h2,
+      h3 {
+        margin: 0;
+        font-weight: 500;
+        line-height: 1.2;
+      }
+
+      a {
+        color: var(--link);
+        text-decoration: none;
+      }
+      a:hover {
+        color: var(--link-hover);
+        text-decoration: underline;
+      }
+
+      .page {
+        padding: 3rem 15px 1rem;
+      }
+
+      .title {
+        margin-bottom: 1.5rem;
+        font-size: 2.5rem;
+        text-align: center;
+      }
+
+      .archive {
+        display: grid;
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+        align-items: start;
+        gap: 3rem 30px;
+      }
+
+      .year-card {
+        background: #fff;
+        border: 1px solid var(--card-border);
+        border-radius: 0.25rem;
+        overflow: hidden;
+      }
+
+      .year-head {
+        padding: 0.75rem 1.25rem;
+        background: var(--header-bg);
+        border-bottom: 1px solid var(--card-border);
+        color: #fff;
+        font-size: 1.5rem;
+        text-align: center;
+      }
+
+      .year-body {
+        padding: 1.25rem;
+      }
+
+      .contest {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+      }
+
+      .contest-name {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0 10px;
+        border-right: 1px solid var(--divider);
+        font-size: 1.25rem;
+        text-align: center;
+      }
+
+      .contest-links {
+        align-self: center;
+        padding-left: 15px;
+      }
+
+      .year-body hr {
+        margin: 1rem 0;
+        border: 0;
+        border-top: 1px solid var(--rule);
+      }
+
+      @media (max-width: 991.98px) {
+        .archive {
+          grid-template-columns: repeat(2, minmax(0, 1fr));
+        }
+      }
+
+      @media (max-width: 575.98px) {
+        .page {
+          padding-top: 2rem;
+        }
+        .title {
+          font-size: 2rem;
+        }
+        .archive {
+          grid-template-columns: 1fr;
+          gap: 2rem;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="page">
+      <h1 class="title">ICPC CU Scoreboard Archive</h1>
+
+      <div class="archive">
+        <section class="year-card">
+          <h2 class="year-head">2026</h2>
+          <div class="year-body">
+            <div class="contest">
+              <h3
+                class="contest-name"
+                title="The 2026B ICPC CUCP Selection Contest">
+                Selection B
+              </h3>
+              <div class="contest-links">
+                <div>
+                  <a target="_blank" href="2026b/index.html">Scoreboard</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="year-card">
+          <h2 class="year-head">2025</h2>
+          <div class="year-body">
+            <div class="contest">
+              <h3 class="contest-name" title="ICPC Asia Bangkok 2025">
+                Regional
+              </h3>
+              <div class="contest-links">
+                <div>
+                  <a target="_blank" href="2025/index.html">Scoreboard</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="year-card">
+          <h2 class="year-head">2024</h2>
+          <div class="year-body">
+            <div class="contest">
+              <h3
+                class="contest-name"
+                title="ICPC Thailand National Competition">
+                National
+              </h3>
+              <div class="contest-links">
+                <div>
+                  <a target="_blank" href="2024/index.html">Scoreboard</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+  </body>
+</html>
